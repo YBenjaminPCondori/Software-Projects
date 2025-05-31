@@ -1,0 +1,18 @@
+
+
+DETAILS:
+First Name: q
+Surname: q
+Customer Since: 15/12/2023
+Date of Birth: 18/12/1998
+
+
+
+ADDRESS
+Street: str
+House Number: 1
+House Name: hn
+Area: a
+Post Code: pc
+Town: t
+Country: c

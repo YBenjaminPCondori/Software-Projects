@@ -1,0 +1,15 @@
+
+BRANCH
+WorkingHours: 09:00-17:00
+Sort Code: 00-00-00
+Manager: TBA
+
+
+ADDRESS
+Street: 
+House Number: 0
+House Name: 
+Area: 
+Post Code: 
+Town: 
+Country: 

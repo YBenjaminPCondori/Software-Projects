@@ -1,0 +1,16 @@
+
+BRANCH
+WorkingHours: 0900-2100
+Sort Code: 070936
+Manager: Benjamin Perez
+
+
+
+ADDRESS
+Street: Street
+House Number: 1
+House Name: HouseName
+Area: Area
+Post Code: PostCode
+Town: Town
+Country: Country
