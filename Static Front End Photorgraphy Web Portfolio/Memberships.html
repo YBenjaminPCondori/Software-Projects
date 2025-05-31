@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Memberships</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body {
+    font-family: 'Raleway';
+    font-size: 22px;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-columns: 6;
+  gap: 0px;
+  background-color: white;
+  padding: 0px;
+}
+
+.grid-container > div {
+  background-color: white;
+  padding: 7px 0;
+}
+
+.api {
+  height: auto;
+  width: 20px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background: url("img/memberships.png") rgb(255, 255, 255, 0.5) no-repeat center;
+  background-size: cover;
+  height: 700px;
+}
+
+.item2 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-image: url("img/happystudent.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+}
+
+.item3 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+.item4 {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("img/cycling.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 667px;
+  padding: 24px;
+  }
+
+.item5 {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-image: url("img/car.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.item6 {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  background-image: url("img/drone.jpg");
+  background-size: contain;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+}
+
+.item7 {
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  margin-top: 200px;
+  height: 500px;
+}
+
+.item8 {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #4caf50;
+  height: 500px;
+}
+
+.item9 {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  padding-left: 50px;
+  margin-left: 250px;
+}
+
+.item10 {
+  grid-row-start: 6;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding-top: 50px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+.item11 {
+  grid-row-start: 6;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  margin-left: 100px;
+}
+
+.item12 {
+  grid-row-start: 7;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.item13 {
+  grid-row-start: 8;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+
+  <div class="item1">
+    
+    <script>
+      // When the user scrolls down 20px from the top of the document, slide down the navbar
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100px";
+        }
+      }
+      </script>
+<div>
+  <div class="logo">
+    <a href="/Home.html"></a><img src="img/logo1.png" alt="Logo Design" width=auto height=100px>
+  </div>
+
+  <div class="top-left1"><b><p style="color:white">EAT GOOD</p></b></div>
+  <div class="top-left2"><b><p style="color:white">+ FEEL GOOD</p></b></div>
+  
+  <div id="navbar">
+    <div class="buttonz button6 left">
+    <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Book Order.html">
+      <b>BOOK ORDER</b></div></a>
+      <div class="buttonz button6 left1">
+    <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Memberships.html">
+    <b>MEMBERSHIPS</b></div></a>
+    <div id="main" class="menu-button-position">
+      <div class="openbtn" onclick="openNav()"><img src="img/menu-button1.png" alt="menu-button" height="50px" width="auto" position="relative"></img></div>
+      </div>
+      <div class="logo2">
+        <a href="/Home.html"></a><img src="img/logo1.png" alt="Logo Design" width=auto height=100px>
+      </div>
+  </div>
+  
+    <div class="top-left3"><ul class="nav">
+      
+        <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Book Order.html">
+          <div class="buttonz button5"><b>BOOK ORDER</b></div></a>
+          
+          </ul></div>
+          <div class="top-left4"><ul class="nav">
+      
+        <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Memberships.html">
+        <div class="buttonz button5"><b>MEMBERSHIPS</b></div></a>
+    </ul>
+  </div>
+
+  
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+
+    <div class="overlay-menu-content">
+    <a href="/index.html"><img src="img/Picture1.png" height="80px" width="auto"></img></a>
+      <br>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\index.html">HOME</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\About.html">ABOUT</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Testimonials.html">TESTIMONIALS</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Contact.html">CONTACT</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Memberships.html">MEMBERSHIPS</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Book Order.html">BOOK ORDER</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Services.html">SERVICES</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Cycling.html">CYCLING</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Driving.html">DRIVING</a>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Drone.html">DRONING</a>
+  </div>
+  </div>
+
+<div class="top-right">
+  <div id="main">
+    <div class="openbtn" onclick="openNav()"><img src="img/menu-button.png" alt="menu-button" height="50px" width="auto" position="relative"></img></div>
+    </div>
+  </div>
+</div>
+<div class="top-right">
+  <div id="main">
+    <div class="openbtn" onclick="openNav()"><img src="img/menu-button.png" alt="menu-button" height="100px" width="auto"></img></div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="bottom-left"><h1 style="color:white">Memberships</h1></div>
+  <div class="button button2 bottom-left1"><b>FIND OUT MORE</b></div>
+
+
+
+</div>
+
+
+  <div class="item2"></div>
+  <div class="item3" style="padding-top: 100px;">
+  <h2 style="color: black; padding-left: 50px;">EAT PRICEY FOOD</h2>
+  <h1 style="color: black;  padding-left: 50px">WITHOUT THE
+    <h1 style="color: green;  padding-left: 50px">PRICEY BITS</h1>
+  </h1>
+
+  <a href=""><div class="button button2" style="margin-left: 50px"><b>FIND OUT MORE</b></div>
+</div></a>
+
+
+  <div class="item4">
+
+
+<!-- I WANT IT IN WHEELS Text-->
+
+<container>
+  <h2 style="color: white; padding-left: 50px">I WANT IT</h2>
+	<br>
+	<h1 style="color: white; padding-left: 50px">IN WHEELS</h1>
+  <br>
+	<!-- I WANT IT IN WHEELS Button-->
+	<a href=""><div class= "button button4" style="margin-left: 50px"><b>ECO FRIENDLY</b></div></a>
+</container>
+
+
+</div>
+  <!-- I WANT IT FAST Img-->
+
+
+
+  <div class="item5">
+    <!-- I WANT IT FAST Text-->
+    <container>
+    <h2 style="color: white; padding-left: 50px">I WANT</h2>
+  	<br>
+  	<h1 style="color: white; padding-left: 50px">IT DRIVEN</h1>
+    <br>
+  	<!-- I WANT IT IN WHEELS Button-->
+  	<a href=""><div class= "button button3" style="margin-left: 50px"><b>FAST ROUTE</b></div></a>
+
+</container>
+</div>
+
+
+
+  <div class="item6">
+
+	<!-- I WANT IT DRONED Text-->
+<container>
+  <h2 style="color: white; padding-left: 50px">I WANT </h2>
+	<br>
+	<h1 style="color: white; padding-left: 50px">IT DRONED</h1>
+  <br>
+	<!-- I WANT IT IN WHEELS Button-->
+	<a href=""><div class= "button button2" style="margin-left: 50px"><b>THE FUTURE</b></div></a>
+</div>
+</container>
+
+
+
+
+<!-- SUBSCRIBE AND DONATE INFORMATION /w Paypal Buttons and Debit Card Logo -->
+
+  <div class="item7">
+  <h3 style="text-align: center">SUBSCRIBE</h3>
+  <h2 style="text-align: center">+ DONATE</h2>
+  <center>
+  <a href=""><img src="img/apple-pay.png" height="100px" width="auto" alt="Apple-Pay"></img></a>
+  <a href=""><img src="img/google-pay.png" height="80px" width="auto" alt="Google-Pay"></img></a>
+  </center>
+  </div>
+  <div class="item8">
+    <img src="img/hand.png" height="auto" width="500px" alt="Hand holding Smartphone"></img>
+  </div>
+
+  <div class="item9">
+  <h2>Modal Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<h2>Modal Signup Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+  </div>
+
+  <!-- Contact Information -->
+  <div class="item10">
+  
+  <h2>COME &amp;</h2>
+  <h1>TAKE A LOOK</h1>
+  <p>Waltham Forest College, E17 9JY</p>
+	<p><b>Telephone</b>: 073 0503 4221</p>
+	<p><b>Email</b>: y.benjamin_pc@eatgoodfeelgood.org</p>
+  </div>
+
+  <!-- Google Maps API using JS, HMTL5, & CSS3 -->
+
+  <div class="item11">
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="img/contactus.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="item12">
+  <center><button>PRIVACY POLICY</button>
+  <button>TERMS & CONDITIONS</button>
+  <button>COOKIES POLICY</button></center>
+    
+  </div>
+
+  
+  <div class="item13">
+    <center><h2 style="color: black">Website Developed by:</h2></center>
+    <center><h2 style="color: green">Yehoshua Benjamin Perez Condori</h2></center>
+	<center><h2 style="color: blue">10127127</h2></center>
+	<center><h2 style="color: orange">Access to HE: Computing & IT L3</h2></center>
+  </div>
+
+  </div>
+
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" async></script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "90%";
+    document.getElementById("main").style.marginLeft = "90%";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

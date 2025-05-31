@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shanelle Callaghan</title>
+  <link rel="icon" type="image/x-icon" href="img/logo-whiteblack.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+    font-family: 'Raleway';
+    font-size: 22px;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+body {
+    font-family: 'Raleway';
+    font-size: 22px;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-columns: 6;
+  gap: 0px;
+  background-color: white;
+  padding: 0px;
+}
+
+.grid-container > div {
+  background-color: white;
+  padding: 0px 0;
+}
+
+.api {
+  height: auto;
+  width: 20px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background: url("img/header.png") rgb(255, 255, 255, 0.5) no-repeat center;
+  background-size: cover;
+  height: 650px;
+}
+
+.space1 {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background-color: white;
+  height: 50px;
+}
+
+.item2 {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-image: url("img/orange_back2.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 611px;
+}
+
+.item3 {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+.space2 {
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  background-color: white;
+  height: 50px;
+}
+
+.item4 {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("img/shanelle_right.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 400px;
+}
+
+.item5 {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-image: url("img/museum.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.item6 {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  background-image: url("img/healingtate.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.space3 {
+  grid-row: 6;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  height: 50px;
+  background-color: white;
+}
+
+.item7 {
+  grid-row-start: 7;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 500px;
+}
+
+.item8 {
+  grid-row-start: 7;
+  grid-row-end: 7;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  background-image: url("img/group\ photo.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #4caf50;
+  height: 400px;
+}
+
+.item9 {
+  grid-row-start: 8;
+  grid-row-end: 8;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  height: 300px;
+  background-image: url("img/hand.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item10 {
+  grid-row-start: 8;
+  grid-row-end: 8;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+
+
+.item11 {
+  grid-row-start: 9;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin: auto;
+}
+
+.item12 {
+  grid-row-start: 9;
+  grid-row-end: 9;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+
+.item13 {
+  grid-row-start: 10;
+  grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+
+  <div class="item1">
+
+    <script>
+      // When the user scrolls down 20px from the top of the document, slide down the navbar
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100px";
+        }
+      }
+      </script>
+<div>
+  <div class="logo">
+    <a href="/Home.html"></a><img src="img/logo3.png" alt="Logo Design" width=auto height=100px>
+  </div>
+
+  <div class="top-left1"><b><p style="color:white">Shanelle</p></b></div>
+  <div class="top-left2"><b><p style="color:white">Callaghan</p></b></div>
+
+  <div id="navbar">
+    <div class="buttonz button6 left">
+    <a href="\Publications.html">
+      <b>PUBLICATIONS</b></div></a>
+      <div class="buttonz button6 left1">
+    <a href="\Contact.html">
+    <b>CONTACT</b></div></a>
+    <div id="main" class="menu-button-position">
+      <div class="openbtn" onclick="openNav()"><img src="img/logo-whiteblack.png"></div>
+      </div>
+      
+  </div>
+
+    <div class="top-left3"><ul class="nav">
+
+        <a href="\Publications.html">
+          <div class="buttonz button5"><b>PUBLICATIONS</b></div></a>
+
+          </ul></div>
+          <div class="top-left4"><ul class="nav">
+
+        <a href="\Contact.html">
+        <div class="buttonz button5"><b>CONTACT</b></div></a>
+    </ul>
+  </div>
+
+
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+
+    <div class="overlay-menu-content">
+    <a href="/index.html"><img src="img/logo-whiteblack.png" width="auto" height="50px"></a>
+      <br>
+      <a href="\index.html">HOME</a>
+      <a href="\About.html">ABOUT</a>
+      <a href="\Testimonials.html">CONTACT </a>
+      <a href="\Contact.html">ORGANIZATIONS</a>
+      <a href="\Memberships.html">GALLERY</a>
+      <a href="\Book Order.html">PUBLICATIONS</a>
+      <a href="\Services.html">CHARITY WORK</a>
+      <a href="\Cycling.html">WORK EXPERIENCE</a>
+      <a href="\Driving.html">GALLERY</a>
+      <a href="\Drone.html">EDUCATION</a>
+  </div>
+  </div>
+
+<div class="top-right">
+  <div id="main">
+    <div class="openbtn" onclick="openNav()"><img src="img/logo-whiteblack.png" alt="menu-button" height="100px" width="auto" position="relative"></img></div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="bottom-left"><h1 style="color:white">Shanelle Callghan's Photography</h1></div>
+  <div class="bottom-left"><h3 style="color:white">BSc. Hons Photography, Westminster University<h3></div>
+  <div class="button button2 bottom-left1"><b>FIND OUT MORE</b></div>
+
+
+
+</div>
+
+<div class="space1"></div>
+  <div class="item2"></div>
+  <div class="item3" style="padding-top: 20px;">
+  <h2 style="color: black; padding-left: 50px;">TAKE A PEEK</h2>
+  <h1 style="color: black;  padding-left: 50px">INTO
+    <h1 style="color: green;  padding-left: 50px">SHANELLE CALLAGHAN'S WORK</h1>
+    <BR>
+    <H3 STYLE="PADDING-LEFT: 50PX;">Most of my work consists of making feminist critiques by 
+      looking at the intersectionality of race and gender. I often
+       explore forms of representation of women of colour based on 
+      stereotypical images portrayed in mainstream media.</H3>
+  </h1>
+  <BR>
+
+  <a href=""><div class="button button2" style="margin-left: 50px"><b>FIND OUT MORE</b></div>
+</div></a>
+
+<div class="space2"></div>
+  <div class="item4 zoom">
+
+
+<!-- I WANT IT IN WHEELS Text-->
+
+<container>
+  <h2 style="color: white; padding-left: 50px">CHECK OUT THE</h2>
+	<br>
+	<h1 style="color: white; padding-left: 50px">ARTICLES & PUBLICATIONS</h1>
+  <br>
+	<!-- I WANT IT IN WHEELS Button-->
+	<a href=""><div class= "button button4" style="margin-left: 50px"><b>FIND OUT MORE</b></div></a>
+</container>
+
+
+</div>
+  <!-- I WANT IT FAST Img-->
+  <div class="item5 zoom">
+    <!-- I WANT IT FAST Text-->
+    <container>
+    <h2 style="color: white; padding-left: 50px">CHECK OUT THE</h2>
+  	<br>
+  	<h1 style="color: white; padding-left: 50px">WORK WITH ORGANIZATIONS</h1>
+    <br>
+  	<!-- I WANT IT IN WHEELS Button-->
+  	<a href=""><div class= "button button3" style="margin-left: 50px"><b>FIND OUT MORE</b></div></a>
+
+</container>
+</div>
+
+
+
+  <div class="item6 zoom">
+
+
+
+	<!-- I WANT IT DRONED Text-->
+<container>
+  <h2 style="color: white; padding-left: 50px">CHECK OUT THE</h2>
+	<br>
+	<h1 style="color: white; padding-left: 50px">CHARITY WORK</h1>
+  <br>
+	<!-- I WANT IT IN WHEELS Button-->
+	<a href=""><div class= "button button2" style="margin-left: 50px"><b>FIND OUT MORE</b></div></a>
+  </container>
+</div>
+
+<div class="space3">
+</div>
+<!-- SUBSCRIBE AND DONATE INFORMATION /w Paypal Buttons and Debit Card Logo -->
+
+  <div class="item7">
+    <br>
+    <br>
+    <br>
+  <h3 style="text-align: center" class="zoom">SUBSCRIBE</h3>
+  <h2 style="text-align: center" class="zoom">+ DONATE</h2>
+  <center>
+  <a href="/Book Order.html"><img src="img/apple-pay.png" height="70px" width="auto" alt="Apple-Pay" style="position: relative; bottom: -11px; left: -20px;" class="zoom"></img></a>
+  <a href="/Book Order.html"><img src="img/google-pay.png" height="50px" width="auto" alt="Google-Pay" class="zoom"></img></a>
+  </center>
+  </div>
+  <div class="item8">
+
+
+  </div>
+
+  <div class="item9 zoom">
+  </div>
+
+  <div class="item10">
+    <div class="section-container1" style="font-size: 15px;">
+      <h2>REGISTER</h2>
+      <a href="C:\Users\10127127\OneDrive - waltham.ac.uk\Access to HE Computing L3\(X) Web Development and Web Design\Assignment\Eat Good Feel Good\Memberships.html"><h1>OR SIGN IN USING</h1></a>
+      <h3>using your Email or Facebook in 2 seconds!</h3>
+
+    <br>
+    <br>
+    <br>
+      <!--Google Play and Apple Store icons -->
+      <section><a href="/Book Order.html"><img src="img/app-store.png" height="72px" width="auto" alt="App Store" class="zoom"></img></a>
+        <a href="/Book Order.html"><img src="img/google-play.png" height="72px" width="auto" alt="Google Play" class="zoom"></img></a></section>
+</div>
+  </div>
+  <!-- Contact Information -->
+  <div class="item11">
+
+  <h2>COME &amp;</h2>
+  <h1>TAKE A LOOK</h1>
+  <p class="zoom"><b>Address</b>: </p>
+	<p class="zoom"><b>Telephone</b>: 07612345678</p>
+	<p class="zoom"><b>Email</b>: callaghanshanelle@gmail.com</p>
+  </div>
+
+  <!-- Google Maps API using JS, HMTL5, & CSS3 -->
+
+  <div class="item12">
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <script>
+      function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    </div>
+
+  </div>
+
+  <div class="item12">
+  <center><button>PRIVACY POLICY</button>
+  <button>TERMS & CONDITIONS</button>
+  <button>COOKIES POLICY</button></center>
+
+  </div>
+
+
+  <div class="item13 footernotes">
+    <center><h2 style="color: black">© Shanell Callaghan Photography 2022. All Rights Reserved.</h2></center>
+    <center><h2 style="color: black">Website Developed by:</h2><h2 style="color: green">Yehoshua Benjamin Perez Condori</h2></center>
+	
+
+  </div>
+
+
+  </div>
+  <div class="footernotes">
+
+    <div class="footer-item">
+  1
+    </div>
+
+    <div class="footer-item">
+  2
+    </div>
+
+    <div class="footer-item">
+  3
+    </div>
+
+    <div class="footer-item">
+  4
+    </div>
+
+    </div>
+
+
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly" async></script>
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "90%";
+    document.getElementById("main").style.marginLeft = "90%";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+        $('.zoom').hover(function() {
+            $(this).addClass('transition');
+        }, function() {
+            $(this).removeClass('transition');
+        });
+    });
+    </script>
+</body>
+</html>
