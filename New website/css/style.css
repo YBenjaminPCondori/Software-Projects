@@ -1,0 +1,1064 @@
+﻿p, a, b, h1, h2, h3, h4, span {
+font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+#navbar {
+  background-color: white;
+  position: fixed;
+  top: -60px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 1;
+  height: 90px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Set the size of the div element that contains the map */
+.map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.footernotes {
+  font-size: 10px;
+}
+
+p {
+
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.footer-item {
+  background-color: rgba(255, 255, 255, 0.137);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+.left {
+  position: relative;
+  left: 692px;
+}
+
+.left1 {
+  position: relative;
+  left: 730px;
+}
+
+.menu-button-position {
+  position: relative;
+  left: 1150px;
+  bottom: 90px;
+}
+
+.button {
+  border: none;
+  padding: 12px 25px;
+  width: max-content;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  transition: ease 0.5s;
+  font-size: 17px;
+}
+
+
+
+.buttonz {
+  border: none;
+  padding: 10px 25px;
+  width: max-content;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  transition: ease 0.5s;
+  font-size: 20px;
+}
+
+.button1 {
+  background-color: PURPLE;
+  color: WHITE;
+  border: 2px solid purple;
+}
+
+.button1:hover {
+  background-color: white;
+  color: PURPLE;
+}
+
+.button2 {
+  background-color: BLUE;
+  color: WHITE;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: WHITE;
+  color: BLUE;
+}
+
+.button3 {
+  background-color: RGBA(212, 171, 25);
+  color: WHITE;
+  border: 2px solid RGBA(212, 171, 25);
+}
+
+.button3:hover {
+  background-color: WHITE;
+  color: RGBA(212, 171, 25);
+}
+
+.button4 {
+  background-color: #4CAF50;
+  color: WHITE;
+  border: 2px solid #4caf50;
+}
+
+.button4:hover {
+  background-color: WHITE;
+  color: #4caf50;
+}
+
+.button5 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.button5:hover {
+  background-color: white;
+  color: black;
+}
+
+.button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.button6:hover {
+  background-color: black;
+  color: white;
+}
+
+img.zoom {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+
+
+.transition {
+  -webkit-transform: scale(1.15); 
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.logo
+{
+    position: relative;
+    top: 20px;
+    left: 65px;
+    margin: auto;
+}
+
+.logo1
+{
+    position: relative;
+}
+
+.logo2
+{
+    position: relative;
+    bottom: 200px;
+    left: 30px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+}
+
+.bottom-left1 {
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+}
+
+.bottom-left2 {
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+}
+.top-left1
+{
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+.top-left2
+{
+    position: absolute;
+    top: 50px;
+    left: 210px;
+}
+
+.top-left3
+{
+  position: absolute;
+  top: 150px;
+  right: -200px;
+}
+
+.top-left4
+{
+  position: absolute;
+  top: 150px;
+  right: -405px;
+}
+
+.fade-in-image {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+.nav {
+    height: 82px;
+  font-size: 20px;
+}
+
+ul {
+    margin: -100px auto;
+    width: 800px;
+    list-style: none;
+    background: transparent;
+}
+
+li {
+    margin-top: 26px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Quicksand";
+    font-weight: lighter;
+    font-size: 24px;
+    transition: 1s;
+    padding: 25px 30px;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-container1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50px
+}
+
+
+h4 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: #FC466B;
+    position: fixed;
+    height: 60px!important;
+    overflow: hidden;
+    z-index: 10;
+}
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 60px;
+    width: auto;
+}
+.mainInner{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.mainInner div{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+#sidebarMenu {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    margin-top: 60px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li span{
+    display: block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+}
+.sidebarMenuInner li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 22px;
+    left: 15px;
+    height: 22px;
+    width: 22px;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 2px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: white;
+  transition: ease 2s;
+  opacity: 0.7;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 0px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.overlay-menu-content {
+    width: 50%;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 50px;
+    float: right;
+    background: beige;
+    height: 100%;
+}
+
+.top-right
+{
+  position: relative;
+  right: -1100px;
+  top: -75px;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #555;
+  border-top: 200px solid #555;
+  border-bottom: 170px solid #555;
+  border-left: 160px solid #555;
+  border-right: 0px solid transparent;
+  border-radius: 0 0 150px 0px;
+  width: 125px;
+  top: 0px;
+  left: 0px;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.overlay-text {
+  position: relative;
+  left: -120px;
+  bottom: 40px;
+}
+
+.container {
+  position: relative;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+float: left;
+width: 50%;
+margin-top: 6px;
+padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+}
+
+#cssmenu {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+  text-align:left
+}
+
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+
+#cssmenu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  position: relative;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#cssmenu ul ul {
+  display:none;
+  position: absolute;
+  top: 100%;
+  z-index: 598;
+}
+#cssmenu ul ul li {
+  float: none;
+}
+#cssmenu ul ul ul {
+  top: -2px;
+  right: 0;
+}
+#cssmenu ul li:hover > ul {
+  display:block;
+  z-index:99999;
+}
+#cssmenu ul ul {
+  top: 1px;
+  right: 100%;
+}
+#cssmenu ul li {
+  float: none;
+}
+#cssmenu ul ul {
+  margin-top: 1px;
+}
+#cssmenu ul ul li {
+  font-weight: normal;
+}
+
+/* Custom CSS Styles Menu Right*/
+#cssmenu {
+  width: 130px;
+  background: white;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  zoom: 1;
+  font-size: 12px;
+  float:right;
+  margin-left:5px;
+}
+#cssmenu:before {
+  content: '';
+  display: block;
+}
+#cssmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu a {
+  display: block;
+  padding: 6px 0px;
+  color: black;
+  text-decoration: none;
+  padding-right:5px;
+}
+#cssmenu > ul {
+  width: 130px;
+}
+#cssmenu ul ul {
+  width: 130px;
+}
+#cssmenu > ul > li > a {
+  color: black;
+}
+#cssmenu > ul > li > a:hover {
+  color: black;
+}
+#cssmenu > ul > li.active a {
+  background: white;
+}
+#cssmenu > ul > li a:hover,
+#cssmenu > ul > li:hover a {
+  background: white;
+}
+#cssmenu li {
+  position: relative;
+}
+
+#cssmenu ul ul li.first {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+#cssmenu ul ul li.last {
+  -webkit-border-radius: 0 0 3px 0;
+  -moz-border-radius: 0 0 3px 0;
+  border-radius: 0 0 3px 0;
+  border-bottom: 0;
+}
+#cssmenu ul ul {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#cssmenu ul ul {
+    margin-left:2px;
+    text-align:right;
+}
+#cssmenu ul ul a {
+  font-size: 12px;
+  color: black;
+}
+#cssmenu ul ul a:hover {
+  color: black;
+}
+#cssmenu ul ul li {
+}
+#cssmenu ul ul li:hover > a {
+  background: black;
+  color: #ffffff;
+}
+#cssmenu.align-right > ul > li > a {
+  border-left: 4px solid black;
+  border-right: none;
+}
+#cssmenu.align-right {
+  float: right;
+}
+#cssmenu.align-right li {
+  text-align: right;
+}
+
+#cssmenu.align-right ul li.has-sub > a:after {
+  content: none;
+}
+#cssmenu.align-right ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu.align-right ul ul li.first {
+  -webkit-border-radius: 3px 0 0 0;
+  -moz-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+#cssmenu.align-right ul ul li.last {
+  -webkit-border-radius: 0 0 0 3px;
+  -moz-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+}
+#cssmenu.align-right ul ul {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* ===========================
+   ====== Name Menu Left ====== 
+   =========================== */
+
+#cssmenu2 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+  text-align:left;
+}
+
+#cssmenu2 ul,
+#cssmenu2 ul li,
+#cssmenu2 ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu2 ul {
+  position: relative;
+  float: left;
+}
+
+#cssmenu2 ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  position: relative;
+}
+#cssmenu2 ul li.hover,
+#cssmenu2 ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#cssmenu2 ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 598;
+  width: 100%;
+  text-align:left;
+}
+#cssmenu2 ul ul li {
+  float: none;
+  margin-left:4px;
+}
+#cssmenu2 ul ul ul {
+  top: -2px;
+  right: 0;
+}
+#cssmenu2 ul li:hover > ul {
+  visibility: visible;
+}
+#cssmenu2 ul ul {
+  top: 1px;
+  left: 99%;
+}
+#cssmenu2 ul li {
+  float: none;
+}
+#cssmenu2 ul ul {
+  margin-top: 1px;
+}
+#cssmenu2 ul ul li {
+  font-weight: normal;
+}
+
+/* Custom CSS Styles Menu Left*/
+#cssmenu2 {
+  width: 130px;
+  background: white;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  zoom: 1;
+  font-size: 12px;
+  margin-left:5px;
+}
+#cssmenu2:before {
+  content: '';
+  display: block;
+}
+#cssmenu2:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu2 a {
+  display: block;
+  padding: 6px 0px;
+  color: black;
+  text-decoration: none;
+  padding-right:5px;
+}
+#cssmenu2 > ul {
+  width: 130px;
+}
+#cssmenu2 ul ul {
+  width: 130px;
+}
+
+}
+#cssmenu2 > ul > li > a:hover {
+  color: black;
+}
+#cssmenu2 > ul > li.active a {
+  background: white;
+}
+#cssmenu2 > ul > li a:hover,
+#cssmenu2 > ul > li:hover a {
+  background: white;
+}
+#cssmenu2 li {
+  position: relative;
+}
+
+#cssmenu2 ul ul li.first {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+#cssmenu2 ul ul li.last {
+  -webkit-border-radius: 0 0 3px 0;
+  -moz-border-radius: 0 0 3px 0;
+  border-radius: 0 0 3px 0;
+  border-bottom: 0;
+}
+#cssmenu2 ul ul {
+  border-right: 2px solid black;
+  background:white;
+  margin-top:-2px;
+}
+#cssmenu2 ul ul {
+    margin-left:2px;
+}
+#cssmenu2 ul ul a {
+  font-size: 12px;
+  color: black;
+}
+#cssmenu2 ul ul a:hover {
+  color: black;
+}
+#cssmenu2 ul ul li {
+}
+#cssmenu2 ul ul li:hover > a {
+  background: black;
+  color: #ffffff;
+}
+#cssmenu2.align-right > ul > li > a {
+  border-left: 4px solid black;
+  border-right: none;
+}
+#cssmenu2.align-right {
+  
+}
+#cssmenu2.align-right li {
+  text-align: right;
+}
+
+#cssmenu2.align-right ul li.has-sub > a:after {
+  content: none;
+}
+#cssmenu2.align-right ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu2.align-right ul ul li.first {
+  -webkit-border-radius: 3px 0 0 0;
+  -moz-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+#cssmenu2.align-right ul ul li.last {
+  -webkit-border-radius: 0 0 0 3px;
+  -moz-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+}
+#cssmenu2.align-right ul ul {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* ===========================
+   ====== Contact Form ====== 
+   =========================== */
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: 400px;
+    color: #999999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;     
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: 1px solid #C9C9C9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px; 
+}
+
+.form label {
+    color: #999999;
+}
+
+/*  Submit Button */
+
+.submit input {
+    width: 100px; 
+    height: 40px;
+    background-color: #474E69; 
+    color: #FFF;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;     
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
