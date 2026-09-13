@@ -1,0 +1,89 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aihawk"
+version = "0.11.1"
+description = "Drive a stealth browser with an LLM from one command"
+readme = "README.md"
+requires-python = ">=3.11"
+# The README says MIT and nothing here did, so the PyPI page showed no licence
+# at all. Both siblings declare theirs.
+license = "MIT"
+license-files = ["LICENSE"]
+# The engine ships binaries for these two only, so a mac reader finds out at
+# the first browser call unless the index says so first.
+classifiers = [
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+authors = [{ name = "feder-cr", email = "85809106+feder-cr@users.noreply.github.com" }]
+dependencies = [
+    # The MCP server is part of this package since 0.10.0, and since 0.11.0 it
+    # is what `aihawk` runs with no subcommand: `uvx aihawk` for a client,
+    # `python -m aihawk` from a checkout. It was the separate package
+    # invisible-playwright-mcp until 0.15.2; that name lives on as a shim
+    # that depends on this one, so every registered client keeps working.
+    # >=1.8, because main() offers the streamable HTTP transport and the SDK
+    # gained it in 1.8.0 (measured on the wheels: 1.7.1 has no streamable_http
+    # module, 1.8.0 does). <2 because the server constructs FastMCP directly.
+    "mcp>=1.8,<2",
+    # >=0.9.0 and not lower, because the server's own behaviour depends on
+    # the fix in it: browser_click_at holds a button down with
+    # wait_for_timeout, and in every earlier version that wait returned
+    # instantly, so hold_seconds never held. >=0.13.0 because browser_watch
+    # and the live pane are built on page.screencast, which arrived there.
+    "invisible-playwright>=0.13.0",
+    # HTML parsing for browser_read_html. Chosen over lxml by measurement: on
+    # six real pages both found byte-identical sets of interactive elements,
+    # so correctness did not separate them, and selectolax then parsed 3-5x
+    # faster and needs no second package for CSS selection (lxml wants
+    # cssselect). Its engine, lexbor, implements the spec HTML5 parsing
+    # algorithm, the same one a browser runs on the same malformed markup.
+    "selectolax>=0.3.21",
+    # Declared rather than inherited. It arrives transitively through mcp today,
+    # and a transitive dependency is one somebody else can drop in a minor
+    # release without telling us.
+    "python-dotenv>=1",
+    "openai>=1.30",
+    "click>=8.1",
+    # Declared even though `mcp` already pulls both in for streamable-http. This
+    # package now serves its own app rather than riding somebody else's, so it
+    # imports them directly, and a dependency you import is one you declare: the
+    # day mcp stops needing them, the failure would otherwise land here.
+    "starlette>=0.37",
+    "uvicorn>=0.30",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-asyncio>=0.23"]
+
+[project.scripts]
+aihawk = "aihawk.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aihawk"]
+
+[tool.pytest.ini_options]
+# ⛔ SO A CHECKOUT GATES ITSELF. Without this, pytest imports whatever the
+# interpreter's installation points at, which is not necessarily this tree:
+# measured 2026-08-29 on a sibling package, an editable install resolved to a
+# SECOND working copy of the same repository on an older branch, so a fix just
+# written did not move the test exercising it. Resolved against this
+# pyproject.toml, so every checkout points at itself.
+pythonpath = ["src"]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+# `ui` tests launch a real browser through a real MCP server. They are slow,
+# they must run serially, and two of them running at once give false results,
+# so they are deselected by default and asked for by name:
+#     pytest -m ui -q tests/test_ui_drive.py
+markers = [
+    "ui: drives a real browser through a real MCP server (slow, serial, opt-in)",
+    "e2e: the server's tests that start a real engine, downloading it when the cache is empty (slow, opt-in: pytest -m e2e tests/mcp_server)",
+]
+addopts = "-m 'not ui and not e2e'"

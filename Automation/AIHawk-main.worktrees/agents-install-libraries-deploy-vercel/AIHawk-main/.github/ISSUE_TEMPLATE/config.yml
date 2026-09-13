@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions
+    url: https://t.me/AIhawkCommunity
+    about: You can join the discussions on Telegram.
+  - name: Contributing guide
+    url: https://github.com/feder-cr/AIHawk/blob/main/.github/CONTRIBUTING.md
+    about: Which repository your issue belongs in, and what to include.
