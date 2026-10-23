@@ -1,3 +1,30 @@
 [submodule "JAVA-Banking-Management-System"]
 	path = JAVA-Banking-Management-System
 	url = https://github.com/YBenjaminPCondori/JAVA-Banking-Management-System
+[submodule "Job-Tracker-for-Internships-Placement-Graduate-Roles-clean"]
+	path = Job-Tracker-for-Internships-Placement-Graduate-Roles-clean
+	url = https://github.com/YBenjaminPCondori/Job-Tracker-for-Internships-Placement-Graduate-Roles.git
+[submodule "Automation/AIHawk-main"]
+	path = Automation/AIHawk-main
+	url = https://github.com/YBenjaminPCondori/AIHawk-main.git
+[submodule "LLM-Backtester"]
+	path = LLM-Backtester
+	url = https://github.com/YBenjaminPCondori/LLM-Backtester.git
+[submodule "MC-Backtesting-Pipeline"]
+	path = MC-Backtesting-Pipeline
+	url = https://github.com/YBenjaminPCondori/Monte-Carlo-Backtesting-Pipeline.git
+[submodule "Quantitative-Trading-Hackathon"]
+	path = Quantitative-Trading-Hackathon
+	url = https://github.com/YBenjaminPCondori/Quantitative-Trading-Hackathon.git
+[submodule "Tiktok VIdeo Generation"]
+	path = Tiktok VIdeo Generation
+	url = https://github.com/YBenjaminPCondori/Tiktok-VIdeo-Generation.git
+[submodule "Trading-Backtesting"]
+	path = Trading-Backtesting
+	url = https://github.com/YBenjaminPCondori/Trading-Backtesting.git
+[submodule "Backtest-Simulation-Engine"]
+	path = Backtest-Simulation-Engine
+	url = https://github.com/YBenjaminPCondori/---QSTrader-backtesting-simulation-engine..git
+[submodule "Event-Research-Tool"]
+	path = Event-Research-Tool
+	url = https://github.com/YBenjaminPCondori/Event-Research-Tool.git
