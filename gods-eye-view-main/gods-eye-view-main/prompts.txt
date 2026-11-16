@@ -1,0 +1,32 @@
+MULTI-REFERENCE IMAGE-CONDITIONED VIDEO REGENERATION.
+
+Create one coherent 15-second, 16:9 animated sequence. Treat @Image1 through @Image9 as ordered temporal anchors from the same story, not as a collage or slideshow. Generate smooth, purposeful motion between them while preserving the exact visual identity of the supplied frames.
+
+STYLE AND CONTINUITY LOCK:
+Fully coloured hand-drawn 2D cartoon animation with vibrant but natural farm colours, bold dark outlines, expressive faces, soft cel shading, and a satirical animal-fable tone. Keep the same wooden barn, table, sheep crowd, lighting, and camera language. The fat brown wild boar always wears the same navy suit and red tie. The orange fox always wears the same charcoal suit and green tie. Keep every character on-model across all shots. Maintain consistent proportions, clothing, fur, wool, and facial features. No photorealism, 3D rendering, style changes, character duplication, or character transformation.
+
+TIMED SHOT SEQUENCE:
+
+0.0–2.5 seconds — OPENING AND ESTABLISHING SHOT:
+Begin from @Image1 and transition gently toward @Image2. Hold the wide barn composition with the boar and fox seated at the table and the sheep surrounding them. Add only subtle living motion: sheep blink and shift uneasily, loose wool stirs slightly, and daylight moves softly through the barn opening. Preserve the title exactly as: “This Is Outsourcing”. Preserve the corrected subtitle exactly as: “When subcontracting becomes exploitation.” Keep all lettering stable, centred, correctly spelled, and readable. Do not morph or invent letters.
+
+2.5–5.5 seconds — CONTRACT SIGNING:
+Move into the close contract view represented by @Image3. The boar and fox finish signing the same document together with deliberate pen strokes. Their sleeves, pens, hands, document angle, wooden tabletop, and the blurred sheep behind them must match the reference. Use a clean cinematic cut followed by a restrained push-in. Do not add new writing or alter the document layout.
+
+5.5–8.5 seconds — PAYMENT:
+Transition through @Image4 to @Image5. The boar places the same bundled stack of green banknotes onto the signed contract, then withdraws his hand, leaving the money alone on the table. Preserve the bundle’s shape, paper band, position, scale, and the contract beneath it. The concerned sheep remain in the background. Motion must be clear and physically coherent.
+
+8.5–11.5 seconds — THE MIDDLEMAN TAKES THE MONEY:
+Transition from the money to @Image6 and then @Image7. The fox pulls the bundle toward himself, looks down at it with a smug, calculating expression, pockets most of it inside his suit, and straightens his jacket with self-satisfaction. Preserve the orange fox, green tie, charcoal suit, wooden chair, and sheep background exactly. Use small expressive eye and eyebrow movements without changing his identity.
+
+11.5–15.0 seconds — THE WORKER RECEIVES ALMOST NOTHING:
+Transition to @Image8 and finish on @Image9. The fox stands beside the vulnerable sheep and drops only two small silver coins into the sheep’s open hoof. The sheep first looks up uncertainly, then lowers its eyes to the two coins with disappointment and worry. Hold the final composition long enough for the unfair contrast to register. Preserve the exact sheep design, fox suit and green tie, coin count, framing, and barn background.
+
+CAMERA AND MOTION:
+Use clean editorial cuts and restrained 2D camera moves: a gentle push-in, a contract close-up, a money insert, and an emotional close-up. Generate natural in-between animation rather than cross-dissolving between still images. Keep screen direction and spatial continuity consistent. No frantic camera movement, fisheye distortion, zoom bursts, or unrelated cutaways.
+
+AUDIO:
+No spoken dialogue and no generated narration. Use subtle dramatic instrumental music under natural barn ambience: quiet sheep movement, soft straw rustle, pen scratching, a bundle of cash landing on wood, fabric movement as the fox pockets the money, and two small coins clinking into a hoof. Leave room in the mix for an English voiceover to be added later.
+
+CONSTRAINTS:
+No blood, injury, choking, violence, horror, logos, watermarks, captions, or additional text. Do not change the visible title wording. Do not create a slideshow. Do not introduce new characters or props. End on the disappointed sheep looking at exactly two coins.

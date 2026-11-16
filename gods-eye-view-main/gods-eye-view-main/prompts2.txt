@@ -1,0 +1,35 @@
+MULTI-REFERENCE IMAGE-CONDITIONED VIDEO REGENERATION.
+
+Create one coherent 15-second, 16:9 continuation of Part 1. Treat @Image1 through @Image9 as ordered temporal anchors from the same story, not as a collage or slideshow. Generate smooth, purposeful motion between them while preserving the exact visual identity, setting, and continuity established in the supplied frames.
+
+STYLE AND CONTINUITY LOCK:
+Fully coloured hand-drawn 2D cartoon animation with vibrant but natural farm colours, bold dark outlines, expressive faces, soft cel shading, and a satirical animal-fable tone. Keep the same wooden barn and sheep crowd. The orange fox always wears the same charcoal suit and green tie. The fat brown wild boar always wears the same navy suit and red tie. Keep every sheep and both bosses on-model across all shots. Maintain consistent proportions, clothing, fur, wool, facial features, lighting, and screen direction. No photorealism, 3D rendering, style changes, character duplication, or character transformation.
+
+TIMED SHOT SEQUENCE:
+
+0.0–2.5 seconds — CONTINUITY BRIDGE AND PRESSURE ON THE WORKERS:
+Begin from @Image1, matching the final frame of Part 1. The disappointed sheep looks once more at the two coins, closes its hoof, and rejoins the other workers. Transition naturally toward @Image2 as the fox stands among the sheep with a cold supervisory expression while the surrounding workers look worried and increasingly resentful. Add restrained breathing, blinking, ear movement, and uneasy glances. Preserve the fox’s orange fur, charcoal suit, green tie, and the exact sheep designs.
+
+2.5–6.5 seconds — NON-GRAPHIC WOOL EXPLOITATION:
+Transition through @Image3 to @Image4. The fox uses the same large shears to clip loose outer wool from the sheep’s body in an exaggerated symbolic workplace action. The scissors open and close visibly while soft tufts fall onto the existing wool piles. Keep the action strictly non-graphic and safe: no contact with skin, no cuts, no blood, no choking, no injury, and no pain. The sheep looks tired, uncomfortable, and humiliated rather than physically harmed. Preserve the shears, fox suit, green tie, sheep crowd, wool piles, and barn interior.
+
+6.5–9.5 seconds — THE WORKERS UNITE:
+Transition to @Image5. The fox pauses with the shears as the boar appears beside him. The previously isolated sheep steps forward and the surrounding sheep close ranks behind it. Their expressions shift from fear to collective determination. The fox and boar glance at the growing crowd and begin to realise they have lost control. Preserve the barn doorway, open countryside, character clothing, scale, and placement.
+
+9.5–11.5 seconds — BOSSES PANIC:
+Move into @Image6. The united sheep fill the foreground and stand tall together. The fox and boar recoil with wide eyes and alarmed expressions; the fox lowers the shears harmlessly. The sheep do not attack. Their solidarity alone makes the bosses retreat. Maintain the satirical, non-violent tone.
+
+11.5–13.5 seconds — BOSSES FLEE:
+Transition through @Image7 and @Image8. From behind the sheep crowd, show the fox and boar running out through the barn doorway into the field. Their suit jackets and tails bounce comically as they flee. The sheep remain together in the barn, upright and resolute. Preserve the exact rear views, doorway geometry, countryside, ladder, wooden walls, and crowd composition. Use physically coherent running motion and consistent screen direction.
+
+13.5–15.0 seconds — CLOSING MESSAGE:
+Finish on @Image9 as a stable closing tableau. The sheep face forward together with determined expressions. Preserve the closing text exactly as: “We can defeat Outsourcing if we stand together against it. Join the UNION!” Keep every word correctly spelled, the same capitalisation, black serif typography, line arrangement, and exclamation mark. Hold the composition steady and readable. Do not morph, replace, or invent letters.
+
+CAMERA AND MOTION:
+Use clean editorial cuts and restrained 2D camera moves. Generate natural in-between animation rather than cross-dissolving between still images. Maintain spatial continuity and a clear escalation from pressure to solidarity to retreat. No frantic movement, fisheye distortion, zoom bursts, or unrelated cutaways.
+
+AUDIO:
+No spoken dialogue and no generated narration. Continue the subtle dramatic instrumental score and barn ambience. Include soft scissor snips, wool landing, sheep murmurs building into a unified determined sound, startled comic reactions from the bosses without intelligible speech, quick retreating footsteps, and a hopeful musical resolution. Leave room in the mix for an English voiceover to be added later.
+
+CONSTRAINTS:
+No blood, injury, choking, physical assault, horror, logos, watermarks, captions, or additional text. Do not portray the sheep attacking anyone. Do not create a slideshow. Do not introduce new characters or props. End on the exact supplied union message and united sheep composition.
